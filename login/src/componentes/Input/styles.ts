@@ -5,7 +5,7 @@ export const InputContainer = styled.div`
     height:42px;
     border-radius:15px;
     display:flex;
-    justify-content:center;
+    justify-content:start;
 
     & input {
         width:100%;
@@ -20,3 +20,11 @@ export const InputContainer = styled.div`
   
 
 `
+
+export const ErroMensagem = styled.p`
+    color:red;
+    margin-top:5px;
+
+    
+`
+
